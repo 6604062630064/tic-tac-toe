@@ -137,6 +137,7 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background-color: #f9dc5c;
+	font-family: "Roboto", sans-serif;
 }
 .container {
 	display: flex;
@@ -164,4 +165,15 @@ h1 {
 .table > div {
 	background-color: #00a9a5;
 	border-radius: 16px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	font-size: 5rem;
+}
+
+.noClick {
+	pointer-events: none;
 }
